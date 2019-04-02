@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+
+    padding: 0;
+    font-size: 100%;
+    line-height: 1;
+    background-color: #272727;
+    font-family: Verdana;
+    font-size: 10px;
+    color: #f7f7f7;
+    text-align: left;
+
+
+}
+h1,h2{
+    color: cadetblue;
+    font-family: Arial;
+    font-weight: bold;
+}
+h1{
+
+    font-size: 3vw;
+}
+h2{
+
+    font-size: 2vw;
+}
+header{
+    line-height: 25px;
+}
+
+p strong {
+    color: yellow;
+}
+section{
+    text-indent: 10px;
+    line-height: 12px;
+}
+li > span{
+    font-style: italic;
+}
+a:visited{
+     color: green;
+ }
+a:hover{
+    color: blue;
+}
+a:active{
+    color: yellow;
+}
+a:link{
+    color: red;
+}
