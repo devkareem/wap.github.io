@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01842bc6-f7b9-4b6f-9942-2efa1a360ccd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/happy.jpg" afterPath="$PROJECT_DIR$/happy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sad.png" afterPath="$PROJECT_DIR$/sad.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutme.html" afterPath="$PROJECT_DIR$/aboutme.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +19,8 @@
       <file leaf-file-name="aboutme.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aboutme.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="323">
+              <caret line="35" column="99" lean-forward="false" selection-start-line="35" selection-start-column="99" selection-end-line="35" selection-end-column="99" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -515,12 +517,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554146482166</updated>
-      <workItem from="1554146491823" duration="7064000" />
+      <workItem from="1554146491823" duration="7270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7064000" />
+    <option name="totallyTimeSpent" value="7270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -585,8 +587,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aboutme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="323">
+          <caret line="35" column="99" lean-forward="false" selection-start-line="35" selection-start-column="99" selection-end-line="35" selection-end-column="99" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
