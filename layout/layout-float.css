@@ -1,0 +1,44 @@
+@media screen and (min-width: 600px) {
+    
+    .column1 {
+        float: left;
+        width: 33%;
+    }
+
+    .column2 {
+        float: left;
+        width: 33%;
+    }
+
+    .column3 {
+        float: right;
+        width: 34%;
+    }
+
+    .footer {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    
+    .column1 {
+        float: left;
+        width: 50%;
+    }
+
+    .column2 {
+        float: left;
+        width: 50%;
+    }
+
+    .column3 {
+        float: left;
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 400px;
+    }
+}
+
