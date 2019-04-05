@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link href="./style/taskListStyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>Task List</header>
+    <div class="container">
+        <div class="input-control">
+        <label for="txtTask">Task</label>
+        <input type="text" id="txtTask" placeholder="Write a Task Name "/>
+        <label for="txtDate">Requierd by</label>
+        <input type="date" id="txtDate"/>
+        <label for="opCategory">Requierd by</label>
+        <select type="date" id="opCategory">
+            <option>Personal</option>
+            <option>workout</option>
+            <option>Study</option>
+        </select>
+    </div>
+        <div class="buttons">
+            <a href="#" >Save Task</a>
+            <a href="#" >Clear Task</a>
+        </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Due</th>
+                <th>Category</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                        <td>Write Task</td>
+                        <td>03/03/2018</td>
+                        <td>Personal</td>
+                </tr>
+                <tr>
+                        <td>running</td>
+                        <td>04/04/2019</td>
+                        <td>workout</td>
+                </tr>
+                <tr>
+                        <td>Math Review</td>
+                        <td>03/02/2019</td>
+                        <td>Study</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="buttons">
+            <a href="#" >Add Task</a>
+        </div>
+    </div>
+    <footer>You have 3 tasks</footer>
+</body>
+</html>
