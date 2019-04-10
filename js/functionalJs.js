@@ -7,7 +7,7 @@ function sum(x) {
 }
 
 function multiply(x) {
-    let res=0;
+    let res=1;
     for (const element of x) {
         res*=element;
     }
