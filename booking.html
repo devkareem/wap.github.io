@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style/booking.css" rel="stylesheet" 
+    <title>Ticket Booking Form</title>
+</head>
+
+<body>
+    <p id="errorArea">
+    </p>
+
+    <form action="#" method="POST">
+        <div>
+            <label for="txtName">Name</label>
+            <input type="text" id="txtName" name="Name" placeholder="Please Enter your Name ...." />
+        </div>
+        <div>
+            <label for="txtStreet">Street</label>
+            <input type="text" id="txtStreet" name="Street" placeholder="Please Enter your Street ...." />
+        </div>
+        <div>
+            <label for="stState">State</label>
+            <select id="stState" name="State">
+                <option selected value="0">Select One</option>
+                <option value="AI">IOWA</option>
+                <option value="IL">Illonie</option>
+                <option value="CA">Californial</option>
+            </select>
+        </div>
+        <div>
+            <label for="txtZip">Zip Code</label>
+            <input type="text" id="txtZip" name="ZipCode" placeholder="Please Enter your Zip Code ...." />
+        </div>
+        <div>
+            <label for="txtSeat">How Many seats?</label>
+            <input type="number" id="txtSeat" name="Seat" placeholder="Please Enter How Many Seats you need ...." />
+        </div>
+
+        <fieldset>
+            <legend>Which taxi do you require?</legend>
+            <input type="radio" name="taxi" value="Car" id="rdCar" /> <label for="rdCar">Car</label>
+            <input type="radio" name="taxi" value="Van" id="rdVan" /> <label for="rdVan">Van</label>
+            <input type="radio" name="taxi" value="Tuk Tuk" id="rdTuk" /> <label for="rdTuk">TukTuk</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Extras</legend>
+            <input type="radio" name="Extras" value="Baby Seat" id="rdBaby" /> <label for="rdBaby">Baby Seat</label>
+            <input type="radio" name="Extras" value="Wheelchair Access" id="rdWheel" /> <label for="rdWheel">Wheelchair
+                Access</label>
+            <input type="radio" name="Extras" value="Stock Tip" id="rdStock" /> <label for="rdStock">Stock Tip</label>
+        </fieldset>
+        <div>
+            <label for="txtSp">How Many seats?</label>
+            <textarea id="txtSp" name="SpecialInstruction"
+                placeholder="Please Enter any Special Instruction ...."></textarea>
+        </div>
+
+        <input type="submit" value="Submit Booking" />
+    </form>
+</body>
+
+</html>
